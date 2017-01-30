@@ -17,6 +17,8 @@ import logging.handlers
 import signal
 import socket
 
+if not os.path.exists("C:\\artillery\\db\\"):
+    os.makedirs("C:\\artillery\\db\\")
 
 def monitor_system(time_wait):
     # total_compare is a tally of all sha512 hashes
