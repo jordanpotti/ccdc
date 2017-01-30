@@ -25,7 +25,7 @@ def monitor_system(time_wait):
     total_compare = ""
     #CHANGE THIS
     # what files we need to monitor
-    check_folders = "c:\\intTest"
+    check_folders = "c:\\intTest,c:\\JUST COMMAN SEPERATE FOLDERS HERE"
     # split lines
     check_folders = check_folders.replace('"', "")
     check_folders = check_folders.replace("MONITOR_FOLDERS=", "")
