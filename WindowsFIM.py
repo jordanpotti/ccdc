@@ -25,7 +25,7 @@ def monitor_system(time_wait):
     total_compare = ""
     #CHANGE THIS
     # what files we need to monitor
-    check_folders = "c:\\intTest,c:\\JUST COMMAN SEPERATE FOLDERS HERE"
+    check_folders = "C:\\Users,C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup,C:\\inetpub"
     # split lines
     check_folders = check_folders.replace('"', "")
     check_folders = check_folders.replace("MONITOR_FOLDERS=", "")
@@ -173,7 +173,7 @@ def syslog(message):
     facility=FACILITY['daemon']
     port = 514
     #CHANGE THIS
-    host = "127.0.0.1"
+    host = "172.20.241.3"
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     data = '<%d>%s' % (level + facility * 8, message + "\n")
     sock.sendto(data, (host, port))
