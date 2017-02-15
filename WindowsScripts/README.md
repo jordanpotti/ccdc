@@ -1,0 +1,1 @@
+WindowsFIM: This is a simple Python script ripped out of Artillery that only does File Integrity Monitoring. If you don't want to install Python, just modify the script to your liking and use Py2Exe to make it a standalone exe.
