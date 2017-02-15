@@ -1,5 +1,11 @@
 # ccdc
-A classmate and I were trying to figure out how to collaborate and share documents related to CCDC among other teams for a variety of reasons: 1. Create stronger blue teams. 2. Push the red teams to Try Harder 3. Encourage the white teams to introduce more challenging/unique environments.
+A classmate and I were trying to figure out how to collaborate and share documents related to CCDC among other teams for a variety of reasons: 
+
+1. Create stronger blue teams. 
+
+2. Push the red teams to Try Harder 
+
+3. Encourage the white teams to introduce more challenging/unique environments.
 
 We decided to create a public github repository that will house scripts, "battle plans", report templates and other documents that have helped teams in the past. We aren't asking for your "secret weapons" but I do believe that sharing this information will help all of the teams. Initially, we were looking at just Minnesota teams, however, I would love to see teams from across the country contribute.
 
