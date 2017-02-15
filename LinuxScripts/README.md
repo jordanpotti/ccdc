@@ -1,1 +1,1 @@
-The GetArtillery scripts pull a custom version of Artillery down from my GitHub and installs it with some custom parameters. namely the config file is different. If you want this, just fork the Artillery from TrustedSec and modify the config file accordingly, then modify this simple script.
+GetArtillery: These pull a custom version of Artillery down from my GitHub and installs it with some custom parameters. namely the config file is different. If you want this, just fork the Artillery from TrustedSec and modify the config file accordingly, then modify this simple script.
